@@ -1,7 +1,6 @@
 body {
 background: #CEAE9B;
 font-size:14pt;
-text-align: center;
 }
 
 #main {
@@ -17,7 +16,8 @@ h1{
 	font-family:"Consolas";
 	font: 24pt;
 	color: #000000;
-	text-indent: 10px;
+	text-indent: 5px;
+	margin-bottom:0px;
 }
 h2{
 	text-align:center;
@@ -25,6 +25,7 @@ h2{
 	font: 20pt;
 	color: #000000;
 }
+
 p{
 	font-family:"Consolas";
 	font-size: 12pt;
@@ -39,14 +40,57 @@ p{
 	margin-bottom:10px;
 }
 
-#about{
-	width:100px;
-	float: left;
-}
 .img-me{
 	width: 150px;
+	margin-top: 0px;
+}
+.img-boxplot{
+	display:block;
+	width: 700px;
+	margin-right:auto;
+	margin-left:auto;
 
-	
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 .post {
 	background-color:#ffffff;
@@ -60,11 +104,10 @@ p{
 	
 }
 h2 {
-	text-align:left;
+	text-align:center;
 	font-family:"Consolas";
 	font: 16pt;
 	color: #000000;
 	text-indent: 10px;
 }
-
 
