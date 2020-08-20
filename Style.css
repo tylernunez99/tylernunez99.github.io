@@ -9,29 +9,40 @@ font-size:14pt;
 	background: #ffab19;
 	margin: 25px auto;
 	border: solid 2px #000000;
-	padding: 10px;
+	padding: 20px;
 }
 h1{
 	text-align:left;
-	font-family:"Consolas";
-	font: 24pt;
+	font-family:"Courier New";
+	font-size: 20pt;
 	color: #000000;
 	text-indent: 5px;
 	margin-bottom:0px;
 }
 h2{
-	text-align:center;
-	font-family:"Consolas";
-	font: 20pt;
+	text-align: : left;
+	font-family:"Courier New";
+	font-size: 16pt;
 	color: #000000;
+	text-indent: 5px;
+	margin-bottom:0px;
 }
 
 p{
-	font-family:"Consolas";
+	font-family:"Courier New";
 	font-size: 12pt;
 	text-align:left;
 	text-indent: 48px;
 	color: #000000;
+	margin-left:10px;
+}
+h3{
+	font-family:"Courier New";
+	font-size: 10pt;
+	text-align:center;
+	text-indent: 48px;
+	color: #000000;
+	margin-left:10px;
 }
 #header {
 	background-color:#ffab19;
@@ -44,13 +55,21 @@ p{
 	width: 150px;
 	margin-top: 0px;
 }
-.img-boxplot{
+.img-pitchprob{
 	display:block;
-	width: 700px;
+	width: 550px;
 	margin-right:auto;
 	margin-left:auto;
 
 }
+.img-pitchprob1{
+	display:block;
+	width: 550px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+
 
 
 .fa {
@@ -95,19 +114,13 @@ p{
 .post {
 	background-color:#ffffff;
 	padding: 5px;
-	border:solid 2px #ffab19;
-	border-bottom: 5px;
+	border: solid 2px #000000;
+	
 
 }
 .post p {
 	margin-bottom: 10px;
 	
 }
-h2 {
-	text-align:center;
-	font-family:"Consolas";
-	font: 16pt;
-	color: #000000;
-	text-indent: 10px;
-}
+
 
