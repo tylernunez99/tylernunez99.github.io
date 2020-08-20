@@ -13,7 +13,7 @@ font-size:14pt;
 }
 h1{
 	text-align:left;
-	font-family:"Courier New";
+	font-family:"Courier New", Courier, monospace;
 	font-size: 20pt;
 	color: #000000;
 	text-indent: 5px;
@@ -21,7 +21,7 @@ h1{
 }
 h2{
 	text-align: : left;
-	font-family:"Courier New";
+	font-family:"Courier New", Courier, monospace;
 	font-size: 16pt;
 	color: #000000;
 	text-indent: 5px;
@@ -29,7 +29,7 @@ h2{
 }
 
 p{
-	font-family:"Courier New";
+	font-family:"Courier New", Courier, monospace;
 	font-size: 12pt;
 	text-align:left;
 	text-indent: 48px;
@@ -37,7 +37,7 @@ p{
 	margin-left:10px;
 }
 h3{
-	font-family:"Courier New";
+	font-family:"Courier New", Courier, monospace;
 	font-size: 10pt;
 	text-align:center;
 	text-indent: 48px;
